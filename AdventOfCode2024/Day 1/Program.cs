@@ -23,12 +23,12 @@
             }
 
             // Puzzle 1
-            PartOne partOne = new PartOne();
+            Day1PartOne partOne = new Day1PartOne();
             int result1 = partOne.GetFirstAnalysis(columnOne, columnTwo);
             Console.WriteLine($"The result of the first analysis is: {result1}");
 
             // Puzzle 2
-            PartTwo partTwo = new PartTwo();
+            Day1PartTwo partTwo = new Day1PartTwo();
             int result2 = partTwo.GetSecondAnalysis(columnOne, columnTwo);
             Console.WriteLine($"The result of the second analysis is: {result2}");
 

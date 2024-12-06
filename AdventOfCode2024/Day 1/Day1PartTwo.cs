@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day_1
 {
-    internal class PartTwo
+    internal class Day1PartTwo
     {
         public int GetSecondAnalysis(List<int> columnOne, List<int> columnTwo)
         {
